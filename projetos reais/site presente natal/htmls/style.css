@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap');
+
+* {
+    background-color: #f1ace6;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Caveat', cursive;
+}
+
+
+#menu ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: #FF00B3;
+}
+
+#menu ul li {
+    justify-content: space-between;
+    padding: 20px;
+    display: inline;
+    font-size: 1.5em;
+    font-style: normal;
+    background-color: #FF00B3;
+}
+
+#menu ul li a {
+    color: white;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    background-color: #FF00B3;
+}    
+
+#menu ul li a:hover {
+    cursor: pointer;
+    background-color: #F86FC8;
+    
+}   
+
+main{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px;
+    width: 450px;
+    padding: 15px;
+    margin: auto;
+}
+
+h1{
+    background-color: white;
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+h2{
+    background-color: white;
+    
+}
+
+p{
+    text-align: justify;
+}
